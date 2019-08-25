@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm@latest' ]
+2 info using npm@1.2.22
+3 info using node@v8.12.0
+4 verbose read json C:\Program Files\nodejs\package.json
+5 verbose read json C:\Program Files\nodejs\package.json
+6 verbose cache add [ 'npm@latest', null ]
+7 verbose cache add name=undefined spec="npm@latest" args=["npm@latest",null]
+8 verbose parsed url Url {
+8 verbose parsed url   protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'npm@latest',
+8 verbose parsed url   path: 'npm@latest',
+8 verbose parsed url   href: 'npm@latest' }
+9 verbose cache add name="npm" spec="latest" args=["npm","latest"]
+10 verbose parsed url Url {
+10 verbose parsed url   protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'latest',
+10 verbose parsed url   path: 'latest',
+10 verbose parsed url   href: 'latest' }
+11 verbose addNamed [ 'npm', 'latest' ]
+12 verbose addNamed [ null, null ]
+13 silly lockFile 588f5fcc-npm-latest npm@latest
+14 verbose lock npm@latest C:\Users\212715347\AppData\Roaming\npm-cache\588f5fcc-npm-latest.lock
+15 info addNameTag [ 'npm', 'latest' ]
+16 silly lockFile 588f5fcc-npm-latest npm@latest
+17 silly lockFile 588f5fcc-npm-latest npm@latest
+18 error Error: unable to get local issuer certificate
+18 error     at TLSSocket.<anonymous> (_tls_wrap.js:1116:38)
+18 error     at emitNone (events.js:106:13)
+18 error     at TLSSocket.emit (events.js:208:7)
+18 error     at TLSSocket._finishInit (_tls_wrap.js:643:8)
+18 error     at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:473:38)
+19 error If you need help, you may report this log at:
+19 error     <http://github.com/isaacs/npm/issues>
+19 error or email it to:
+19 error     <npm-@googlegroups.com>
+20 error System Windows_NT 10.0.17763
+21 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "npm@latest"
+22 error cwd C:\Users\212715347\SecurityGT\gt_sec_assignment_2
+23 error node -v v8.12.0
+24 error npm -v 1.2.22
+25 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+26 verbose exit [ 1, true ]
